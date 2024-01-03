@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: teal;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  background-color: teal;
+  position: absolute;
+  top: 0;
+  bottom: 187.2px;
+  right: 0;
+  left: 0;
+}
+
+.subtitles {
+  background-color: teal;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+
+.mainText {
+  text-align: center;
+  font-size: 39px;
+  color: white;
+}
+
+.allButtons {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
+
+.outerbutton {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  padding: 9px 0px 9px 18px;
+  border-radius: 7px;
+  background-color: rgba(206, 188, 188, 0.2);
+}
+
+.font-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.button1 {
+  font-size: larger;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgba(206, 188, 188, 0.2);
+}
+
+.button2 {
+  font-size: medium;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgba(206, 188, 188, 0.2);
+}
+
+.button3 {
+  font-size: smaller;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgba(206, 188, 188, 0.2);
+}
+
+.c-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.cbutton1 {
+  font-size: medium;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgba(206, 188, 188, 0.2);
+}
+
+.cbutton2 {
+  font-size: medium;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgb(13, 1, 1);
+  color: white;
+}
+
+.cbutton3 {
+  font-size: medium;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgb(13, 1, 1);
+  color: yellow;
+}
+
+.cbutton4 {
+  font-size: medium;
+  width: 60px;
+  height: 40px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
